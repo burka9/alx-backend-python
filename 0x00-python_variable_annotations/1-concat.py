@@ -1,7 +1,9 @@
-#!/usr/bin/python3
-"""type annoted"""
+#!/usr/bin/env python3
+""" 1. Basic annotations - concat
+"""
 
 
 def concat(str1: str, str2: str) -> str:
-    """concatenate string"""
-    return str1 + str2
+    """ Concats two strings together.
+    """
+    return str(str1) + str(str2)
